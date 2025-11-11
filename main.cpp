@@ -29,7 +29,12 @@ public:
     void display() {
         cout << "name:" << name << "" << "id:" << id << endl;
     }
-
+void getname() {
+    cout << name << endl;
+}
+void getid() {
+    cout << id << endl;
+}
 };
 
 
@@ -61,6 +66,12 @@ public:
     void display() {
         cout <<  "Year Level:" << yearLevel << "" << "Major:" << major;
     }
+void getYearLevel() {
+    cout << yearLevel << endl;
+}
+void getMajor() {
+    cout << major << endl;
+}
     
 };
 
@@ -86,6 +97,12 @@ public:
     void display() {
         cout << "Department:" << department << "" << "ExperienceYears:" << experienceYears << endl;
     }
+void getDepartment() {
+    cout << department << endl;   
+}
+void getExperineceYears() {
+    cout << experienceYears << endl;
+}
 };
 
 
@@ -125,6 +142,25 @@ public:
             
         }
     }
+void getCourseCode() {
+    cout << courseCode << endl;
+
+}
+void getCourseName() {
+    cout << CourseName << endl;
+
+}
+void getMaxStudents() {
+    cout << maxStudents << endl;
+
+}
+void getStudents() {
+    cout << students << endl;
+
+}
+void getCurrentStudents() {
+    cout << currentStudents << endl;
+}
 };
 
 

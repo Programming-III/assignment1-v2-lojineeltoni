@@ -170,6 +170,8 @@ void getCurrentStudents() {
 
 // ==================== Main Function ====================
 int main() {
-  
+   Student* student = new students;
+ Instructor* a = new Instructor("Computer Science", 5);
+ Course c = new Course("CS101","Intro to Programming","3");
     return 0;
 }

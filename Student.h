@@ -22,7 +22,8 @@ public:
     }
     ~Student (){}
     void display() { }
-    
+    void getYearLevel(){}
+    void getMajor(){}
 };
 
 
